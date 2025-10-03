@@ -49,8 +49,8 @@ sudo $PWD/.venv/bin/python main.py
 |------------|------------------|---------|
 | VCC        | 3.3V             | Alimentação |
 | GND        | GND              | Terra |
-| SDA        | GPIO2 (I2C-3)    | Dados I2C |
-| SCL        | GPIO1 (I2C-3)    | Clock I2C |
+| SDA        | GPIOC27 (I2C-3)    | Dados I2C |
+| SCL        | GPIOC26 (I2C-3)    | Clock I2C |
 
 ## Configurações
 
@@ -97,4 +97,5 @@ i2cdetect -y 3
 ---
 
 **Desenvolvido para a placa Labrador 32 da Caninos Loucos** 🐕
+
 
